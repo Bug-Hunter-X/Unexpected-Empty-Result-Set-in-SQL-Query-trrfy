@@ -1,0 +1,3 @@
+# Unexpected Empty Result Set in SQL Query
+
+This repository demonstrates a common issue in SQL queries where an empty result set is returned when no matching rows are found.  The `bug.sql` file contains the problematic query. The solution, found in `bugSolution.sql`, showcases a more robust approach to handle the situation using a `UNION ALL` clause to provide a default result if no matches are found.  This approach prevents unexpected behavior in the application using the SQL query and makes the application logic more reliable.
